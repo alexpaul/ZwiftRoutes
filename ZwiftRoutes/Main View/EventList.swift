@@ -21,6 +21,7 @@ struct EventList: View {
                     NavigationLink(destination: DetailView(event: event)) {
                         EventRow(event: event)
                     }
+                    .buttonStyle(PlainButtonStyle())
                 }
             }
             .navigationTitle("Zwift Routes")
