@@ -27,6 +27,8 @@
 		57998C492933E99000059DCD /* ParticlesGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57998C482933E99000059DCD /* ParticlesGeometryEffect.swift */; };
 		57998C4B2933E9AA00059DCD /* ParticlesModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57998C4A2933E9AA00059DCD /* ParticlesModifier.swift */; };
 		57998C4D2933E9CC00059DCD /* ParticlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57998C4C2933E9CC00059DCD /* ParticlesView.swift */; };
+		57998C4F29343F1B00059DCD /* EventOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57998C4E29343F1B00059DCD /* EventOverlay.swift */; };
+		57998C5129343FD200059DCD /* RaceGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57998C5029343FD200059DCD /* RaceGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		57998C482933E99000059DCD /* ParticlesGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticlesGeometryEffect.swift; sourceTree = "<group>"; };
 		57998C4A2933E9AA00059DCD /* ParticlesModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticlesModifier.swift; sourceTree = "<group>"; };
 		57998C4C2933E9CC00059DCD /* ParticlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticlesView.swift; sourceTree = "<group>"; };
+		57998C4E29343F1B00059DCD /* EventOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventOverlay.swift; sourceTree = "<group>"; };
+		57998C5029343FD200059DCD /* RaceGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				57998C332933E7DB00059DCD /* RaceGroup.swift */,
+				57998C5029343FD200059DCD /* RaceGroupView.swift */,
 				57998C352933E7EF00059DCD /* HeaderView.swift */,
 				57998C372933E80A00059DCD /* EventDescriptionView.swift */,
 				57998C392933E82000059DCD /* PhotosView.swift */,
@@ -157,6 +162,7 @@
 				57998C2F2933E79100059DCD /* EventRow.swift */,
 				57998C312933E7A900059DCD /* EventList.swift */,
 				57998C192933E66F00059DCD /* ContentView.swift */,
+				57998C4E29343F1B00059DCD /* EventOverlay.swift */,
 			);
 			path = "Main View";
 			sourceTree = "<group>";
@@ -252,9 +258,11 @@
 				57998C3C2933E84300059DCD /* ResourceLinksView.swift in Sources */,
 				57998C4B2933E9AA00059DCD /* ParticlesModifier.swift in Sources */,
 				57998C2B2933E74200059DCD /* Event.swift in Sources */,
+				57998C5129343FD200059DCD /* RaceGroupView.swift in Sources */,
 				57998C492933E99000059DCD /* ParticlesGeometryEffect.swift in Sources */,
 				57998C472933E96600059DCD /* ColorTheme.swift in Sources */,
 				57998C4D2933E9CC00059DCD /* ParticlesView.swift in Sources */,
+				57998C4F29343F1B00059DCD /* EventOverlay.swift in Sources */,
 				57998C342933E7DB00059DCD /* RaceGroup.swift in Sources */,
 				57998C3A2933E82000059DCD /* PhotosView.swift in Sources */,
 				57998C182933E66F00059DCD /* ZwiftRoutesApp.swift in Sources */,

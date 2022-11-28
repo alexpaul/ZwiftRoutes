@@ -9,7 +9,6 @@ import SwiftUI
 
 struct EventDescriptionView: View {
     let event: Event
-    let diameter: Double = 20
 
     var body: some View {
         VStack {
@@ -36,19 +35,7 @@ struct EventDescriptionView: View {
                     .font(.headline)
                     .bold()
                 Spacer()
-                HStack(alignment: .center, spacing: 2) {
-                    ForEach(RaceGroup.allGroups, id:\.self) { item in
-                        ZStack {
-                            Circle()
-                                .frame(width: diameter, height: diameter)
-                                .foregroundColor(item.color)
-                            Text(item.group)
-                                .font(.caption)
-                                .foregroundColor(.white)
-                                .bold()
-                        }
-                    }
-                }
+                RaceGroupView()
             }
             .padding(.horizontal, 20)
             Divider()

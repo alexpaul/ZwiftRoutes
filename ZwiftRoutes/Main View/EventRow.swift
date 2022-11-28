@@ -18,7 +18,14 @@ struct EventRow: View {
     var body: some View {
         ZStack {
             VStack(alignment: .center, spacing: 0) {
-                image
+                ZStack {
+                    image
+                }
+                .overlay(
+                    EventOverlay(event: event)
+                        .padding(.leading, 60),
+                    alignment: .bottom
+                )
                 Color.zwiftOrange
                     .frame(height: 8)
             }
@@ -37,6 +44,7 @@ struct EventRow: View {
                     .offset(x: 160, y: -120)
                     .shadow(color: .black, radius: Constants.shadowRadius)
             }
+
         }
     }
 
@@ -47,7 +55,7 @@ struct EventRow: View {
     }
 }
 
-struct EventView_Previews: PreviewProvider {
+struct EventRow_Previews: PreviewProvider {
     static var previews: some View {
         EventRow(event: Event.mockEvent())
     }
